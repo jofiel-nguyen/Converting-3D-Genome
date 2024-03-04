@@ -33,7 +33,7 @@ unweighted_network = convert_to_unweighted_network(hic_matrix, method="threshold
 analyze_network(unweighted_network)
 
 For detailed usage instructions and examples, refer to the documentation.
-
+```
 ## Installation:
 You can install the package via pip:
 pip install genome-network-converter 
