@@ -24,7 +24,7 @@ To use the tool, simply provide your weighted Hi-C matrix as input, specify the 
 from genome_network_converter import convert_to_unweighted_network
 
 # Load Hi-C matrix
-hic_matrix = load_hic_matrix("your_hic_matrix.txt")
+hic_matrix = load_hic_matrix(".txt")
 
 # Convert to unweighted network
 unweighted_network = convert_to_unweighted_network(hic_matrix, method="thresholding")
